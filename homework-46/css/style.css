@@ -1,0 +1,25 @@
+
+*{
+    box-sizing: border-box;
+}
+/* ====================================================== */
+.box{
+    background-color: rgb(236, 215, 255);
+    border-radius: 20px 0 0 20px;
+    overflow: auto;
+}
+.box__items{
+    margin: 0;
+    padding: 0;
+    max-width: 1000px;
+    height: 500px;
+    
+}
+.box__item{
+    display: inline-block;
+    max-width: 200px;
+    background-color: rgb(202, 150, 52);
+    border-radius: 15px;
+    padding: 15px 20px;
+    margin: 10px 10px 10px 5px;
+}
