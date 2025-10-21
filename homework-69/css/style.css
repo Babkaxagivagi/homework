@@ -1,0 +1,31 @@
+body {
+    background-color: #1e1e22;
+    color: #fff;
+    font-size: 50px;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.block{
+    background-color: antiquewhite;
+    min-height: 100px;
+    width: 700px;
+    border-radius: 10px;
+    position: fixed;
+    left: 50%;
+    right: 50px;
+    bottom: 100px;
+
+}
+.circle{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 72, 72);
+    border-radius: 50%;
+    left: 100px;
+    top: -50%;
+}
