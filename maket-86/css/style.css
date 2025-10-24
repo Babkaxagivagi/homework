@@ -281,6 +281,7 @@ body{
   padding: 30px 15px;
 }
 .products__item-button{
+  display: block;
   margin: 0 auto;
 }
 /* ------------------------------------------------------------------------ */
@@ -296,3 +297,4 @@ body{
   justify-content: center;
   gap: 10px;
 }
+
