@@ -10,7 +10,6 @@
   function burgerInit(e){
     const burgerIcon = e.target.closest('.burger-icon')
     const burgerNavLink = e.target.closest('.nav__link')
-    console.log('burgerIcon')
     if(!burgerIcon && !burgerNavLink) return
     if(document.documentElement.clientWidth > 900) return
     if(!document.body.classList.contains('body--opened-menu')){
@@ -35,8 +34,8 @@
   btnOpen.addEventListener('click', openModal)
   body.addEventListener('click', event =>{
     const target = event.target
-    event.preventDefault()
     if (target && target.closest('.modal__cancel') || target.classList.contains('modal')){
+      event.preventDefault()
       closeModal()
     }
   })
@@ -160,6 +159,7 @@
   const im =new Inputmask('+7 (999) 999 99 99')
   im.mask(telInputs)
 })()
+
 
 
 
