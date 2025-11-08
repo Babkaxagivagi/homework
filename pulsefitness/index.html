@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pulse</title>
+    <link href="css/swiper-bundle.min.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <body class="body">
+    <div class="wrapper">
+      <header class="header">
+        <div class="container">
+          <div class="header__inner">
+            <a class="header__logo" href="/">
+              <img src="img/icons/logo.svg" alt="Pulse logo img" />
+            </a>
+            <nav class="nav">
+              <ul class="nav__list">
+                <li class="nav__item">
+                  <a class="nav__link" href="#">HOME</a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link" href="#">CATALOGS</a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link" href="#">BLOG</a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link" href="#">COLLECTIONS</a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link" href="#">CONTACT US</a>
+                </li>
+              </ul>
+            </nav>
+            <div class="header__actions">
+              <a class="header__actions-basket">
+                <svg
+                  width="38"
+                  height="33"
+                  viewBox="0 0 38 33"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M36.7437 8.1235C36.397 7.6285 35.8279 7.33333 35.2199 7.33333H9.88568L7.74653 2.255C7.16818 0.883667 5.82612 0 4.32464 0H0V3.66667H4.32464L13.1185 24.5392C13.4058 25.2212 14.0806 25.6667 14.8294 25.6667H29.6589C30.4319 25.6667 31.1233 25.1918 31.3958 24.4787L36.9568 9.812C37.17 9.24734 37.0903 8.61667 36.7437 8.1235ZM28.3743 22H16.0659L11.4316 11H32.5451L28.3743 22Z"
+                    fill="white"
+                  />
+                  <path
+                    d="M15.7561 33C17.2917 33 18.5366 31.7688 18.5366 30.25C18.5366 28.7312 17.2917 27.5 15.7561 27.5C14.2205 27.5 12.9756 28.7312 12.9756 30.25C12.9756 31.7688 14.2205 33 15.7561 33Z"
+                    fill="white"
+                  />
+                  <path
+                    d="M28.7317 33C30.2673 33 31.5122 31.7688 31.5122 30.25C31.5122 28.7312 30.2673 27.5 28.7317 27.5C27.1961 27.5 25.9512 28.7312 25.9512 30.25C25.9512 31.7688 27.1961 33 28.7317 33Z"
+                    fill="white"
+                  />
+                </svg>
+              </a>
+              <a class="header__actions-search">
+                <svg
+                  width="29"
+                  height="29"
+                  viewBox="0 0 29 29"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M28.1789 24.7026L22.6157 19.1393C22.3646 18.8882 20.9293 17.5996 20.5487 17.2191L20.7575 18.7487C22.2976 16.779 23.2127 14.3015 23.2127 11.6064C23.2127 5.19496 18.0178 0 11.6064 0C5.19496 0 0 5.19496 0 11.6064C0 18.0178 5.19496 23.2127 11.6064 23.2127C14.3015 23.2127 16.779 22.2976 18.7487 20.7575L17.2191 20.6439C17.5045 20.9293 18.8882 22.3646 19.1393 22.6157L24.7026 28.1789C25.2271 28.7034 26.0753 28.7034 26.5942 28.1789L28.1733 26.5998C28.6979 26.0753 28.6979 25.2271 28.1789 24.7026ZM11.6064 18.7487C7.66132 18.7487 4.46399 15.557 4.46399 11.6064C4.46399 7.66132 7.65574 4.46399 11.6064 4.46399C15.5514 4.46399 18.7487 7.65574 18.7487 11.6064C18.7487 15.5514 15.557 18.7487 11.6064 18.7487Z"
+                    fill="white"
+                  />
+                </svg>
+              </a>
+              <a class="header__actions-burger burger-icon">
+                <svg
+                  width="25"
+                  height="22"
+                  viewBox="0 0 25 22"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M0 12.4982H24.9965V8.92732H0V12.4982ZM0 21.4256H24.9965V17.8546H0V21.4256ZM0 0V3.57093H24.9965V0H0Z"
+                    fill="white"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main class="main">
+        <section class="main__hero hero">
+          <div class="container">
+            <div class="hero__inner">
+              <h1 class="hero__title">
+                POWER <span class="hero__title-within">WITHIN</span> <br />
+                FROM WITHIN
+              </h1>
+              <div class="hero__btn">
+                <svg
+                  width="57"
+                  height="57"
+                  viewBox="0 0 57 57"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1.25 28.25H55.25"
+                    stroke="black"
+                    stroke-width="2.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M28.25 1.25L55.25 28.25L28.25 55.25"
+                    stroke="black"
+                    stroke-width="2.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="hero__bg container--big">
+            <img src="img/content/power-bg.jpg" alt="" />
+          </div>
+          <div class="hero__card container--big">
+            <ul class="hero__card-list">
+              <li class="hero__card-item">
+                <a class="hero__card-link" href="#">
+                  <p class="hero__card-subtitle">FITNESS</p>
+                  <h2 class="hero__card-title">IMPROVE YOUR STRENGH</h2>
+                  <div class="hero__card-action card-action">
+                    <span>GET STARTED</span>
+                    <svg
+                      width="21"
+                      height="21"
+                      viewBox="0 0 21 21"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M0.999958 10.2829L19.565 10.2829"
+                        stroke="#141414"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M10.2825 1.00041L19.565 10.2829L10.2825 19.5654"
+                        stroke="#141414"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </div>
+                </a>
+              </li>
+              <li class="hero__card-item">
+                <a class="hero__card-link" href="#">
+                  <p class="hero__card-subtitle">BODYBUILDING</p>
+                  <h2 class="hero__card-title">GET BEST BODY SHAPES</h2>
+                  <div class="hero__card-action">
+                    <span>GET STARTED</span>
+                    <svg
+                      width="21"
+                      height="21"
+                      viewBox="0 0 21 21"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M0.999958 10.2829L19.565 10.2829"
+                        stroke="#141414"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M10.2825 1.00041L19.565 10.2829L10.2825 19.5654"
+                        stroke="#141414"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </div>
+                </a>
+              </li>
+              <li class="hero__card-item">
+                <a class="hero__card-link" href="#">
+                  <p class="hero__card-subtitle">CROSSFIT</p>
+                  <h2 class="hero__card-title">THE BEST DIETARY PLANS</h2>
+                  <div class="hero__card-action">
+                    <span>GET STARTED</span>
+                    <svg
+                      width="21"
+                      height="21"
+                      viewBox="0 0 21 21"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M0.999958 10.2829L19.565 10.2829"
+                        stroke="#141414"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M10.2825 1.00041L19.565 10.2829L10.2825 19.5654"
+                        stroke="#141414"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="main__better better">
+          <div class="container">
+            <div class="better__inner">
+              <div class="better__info">
+                <h1 class="better__title-big">BE <span>BETTER</span></h1>
+                <h2 class="better__title">OUR STORY</h2>
+                <p class="better__text">
+                  Ac nec est ultrices varius morbi et non. Donec quam sed eget
+                  purus. Elementum sed malesuada senectus feugiat faucibus morbi
+                  a neque ultricies. Nisl maecenas eget ultricies in lobortis.
+                </p>
+                <h2 class="better__title">OUR MISSION</h2>
+                <p class="better__text">
+                  Ac nec est ultrices varius morbi et non. Donec quam sed eget
+                  purus. Elementum sed malesuada senectus feugiat.
+                </p>
+                <a class="better__btn" href="#">READ MORE</a>
+              </div>
+              <div class="better__slider swiper">
+                <div class="better__wrapper swiper-wrapper">
+                  <div class="better__slide swiper-slide">
+                    <div class="better__product">
+                      <div class="better__product-compound">
+                        <div class="better__product-info">
+                          <span>24G</span>
+                          <p>PROTEIN</p>
+                        </div>
+                        <div class="better__product-info accent-bg">
+                          <span>5.5G</span>
+                          <p>BCAAS</p>
+                        </div>
+                      </div>
+                      <div class="better__product-img">
+                        <img src="img/content/whey-protein.png" alt="#" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="better__slide swiper-slide">
+                    <div class="better__product">
+                      <div class="better__product-compound">
+                        <div class="better__product-info">
+                          <span>24G</span>
+                          <p>PROTEIN</p>
+                        </div>
+                        <div class="better__product-info accent-bg">
+                          <span>5.5G</span>
+                          <p>BCAAS</p>
+                        </div>
+                      </div>
+                      <div class="better__product-img">
+                        <img src="img/content/whey-protein.png" alt="#" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="better__slide swiper-slide">
+                    <div class="better__product">
+                      <div class="better__product-compound">
+                        <div class="better__product-info">
+                          <span>24G</span>
+                          <p>PROTEIN</p>
+                        </div>
+                        <div class="better__product-info accent-bg">
+                          <span>5.5G</span>
+                          <p>BCAAS</p>
+                        </div>
+                      </div>
+                      <div class="better__product-img">
+                        <img src="img/content/whey-protein.png" alt="#" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="better__slide swiper-slide">
+                    <div class="better__product">
+                      <div class="better__product-compound">
+                        <div class="better__product-info">
+                          <span>24G</span>
+                          <p>PROTEIN</p>
+                        </div>
+                        <div class="better__product-info accent-bg">
+                          <span>5.5G</span>
+                          <p>BCAAS</p>
+                        </div>
+                      </div>
+                      <div class="better__product-img">
+                        <img src="img/content/whey-protein.png" alt="#" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="main__workout workout">
+          <div class="container--big">
+            <div class="workout__ticker">
+              <div class="workout__ticker-content">
+                <span class="workout__ticker-item">APPROACH</span>
+                <span class="workout__ticker-item">CARDIO</span>
+                <span class="workout__ticker-item">KICKBOX</span>
+                <span class="workout__ticker-item">JIU-JITSU</span>
+                <span class="workout__ticker-item">BOXING</span>
+              </div>
+            </div>
+            <ul class="workout__card">
+              <li class="workout__item">
+                <a class="workout__link" href="#">
+                  <img src="img/content/workout/1.jpg" alt="power men" />
+                  <div class="workout__action">
+                    <span>GEAR</span>
+                    <svg
+                      width="21"
+                      height="21"
+                      viewBox="0 0 21 21"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M0.999958 10.2829L19.565 10.2829"
+                        stroke="#141414"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M10.2825 1.00041L19.565 10.2829L10.2825 19.5654"
+                        stroke="#141414"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </div>
+                </a>
+              </li>
+              <li class="workout__item">
+                <a class="workout__link" href="#">
+                  <img src="img/content/workout/2.jpg" alt="power men" />
+                  <div class="workout__action">
+                    <span>ACESSORIES</span>
+                    <svg
+                      width="21"
+                      height="21"
+                      viewBox="0 0 21 21"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M0.999958 10.2829L19.565 10.2829"
+                        stroke="#141414"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M10.2825 1.00041L19.565 10.2829L10.2825 19.5654"
+                        stroke="#141414"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </div>
+                </a>
+              </li>
+              <li class="workout__item">
+                <a class="workout__link" href="#">
+                  <img src="img/content/workout/3.jpg" alt="power men" />
+                  <div class="workout__action">
+                    <span>DESIGN</span>
+                    <svg
+                      width="21"
+                      height="21"
+                      viewBox="0 0 21 21"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M0.999958 10.2829L19.565 10.2829"
+                        stroke="#141414"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M10.2825 1.00041L19.565 10.2829L10.2825 19.5654"
+                        stroke="#141414"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="main__programs programs">
+          <div class="container">
+            <div class="programs__inner">
+              <h2 class="programs__title">OUR PROGRAMS</h2>
+              <p class="programs__text">
+                Ac nec est ultrices varius morbi et non. Donec quam sed eget
+                purus. Elementum sed malesuada senectus.
+              </p>
+              <ul class="programs__cards">
+                <li class="programs__item">
+                  <a class="programs__content" href="#">
+                    <div class="programs__content-img">
+                      <img src="img/content/programs/1.jpg" alt="" />
+                    </div>
+                    <div class="programs__form">
+                      <span>COACHING</span>
+                      <span>STRENGTH</span>
+                    </div>
+                    <h3 class="programs__content-title">GYM DAY</h3>
+                  </a>
+                </li>
+                <li class="programs__item">
+                  <a class="programs__content" href="#">
+                    <div class="programs__content-img">
+                      <img src="img/content/programs/2.jpg" alt="" />
+                    </div>
+                    <div class="programs__form">
+                      <span>COACHING</span>
+                      <span>STRENGTH</span>
+                    </div>
+                    <h3 class="programs__content-title">CARDIO WORKOUT</h3>
+                  </a>
+                </li>
+                <li class="programs__item">
+                  <a class="programs__content" href="#">
+                    <div class="programs__content-img">
+                      <img src="img/content/programs/3.jpg" alt="" />
+                    </div>
+                    <div class="programs__form">
+                      <span>COACHING</span>
+                      <span>STRENGTH</span>
+                    </div>
+                    <h3 class="programs__content-title">BODY STRENGTH</h3>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <button class="button container--big" type="button">
+          VIEW FULL TIMETABLE
+          <svg
+            width="21"
+            height="21"
+            viewBox="0 0 21 21"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0.999958 10.2829L19.565 10.2829"
+              stroke="#141414"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M10.2825 1.00041L19.565 10.2829L10.2825 19.5654"
+              stroke="#141414"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </button>
+        <section class="main__about about">
+          <div class="container--big">
+            <div class="about__content">
+              <div class="about__content-img">
+                <img src="img/content/about/1.jpg" alt="" />
+              </div>
+              <div class="about__content-quote">
+                <img
+                  class="quote__img"
+                  src="img/icons/quotes.svg"
+                  alt="quotes"
+                />
+                <blockquote>
+                  “THIS PLACE HELP ME ACCOMPLISHED MY <br />
+                  BIGGEST GOAL, BE IN SHAPE”
+                </blockquote>
+                <img class="quote__line" src="img/icons/line.svg" alt="line" />
+                <p class="about__content-author">
+                  <span>Graphic Designer</span> Monica Belsley
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="main__company company container--big">
+          <div class="container">
+            <div class="company__inner">
+              <ul class="tab-controls">
+                <li class="tab-controls__item">
+                  <a
+                    class="tab-controls__link tab-controls__link--active"
+                    href="#tab1"
+                    >PULSE</a
+                  >
+                </li>
+                <li class="tab-controls__item">
+                  <a class="tab-controls__link" href="#tab2">OUR STORY</a>
+                </li>
+                <li class="tab-controls__item">
+                  <a class="tab-controls__link" href="#tab3">APPROACH</a>
+                </li>
+                <li class="tab-controls__item">
+                  <a class="tab-controls__link" href="#tab4">OUR PLAN</a>
+                </li>
+              </ul>
+              <div
+                class="company__tab-content tab-content tab-content--show"
+                id="tab1"
+              >
+                <h3 class="company__tab-title">BEST GYM</h3>
+                <p class="company__tab-text">
+                  Ac nec est ultrices varius morbi et non. Donec quam sed eget
+                  purus. Elementum sed malesuada senectus feugiat faucibus morbi
+                  a neque ultricies. Nisl maecenas eget ultricies in lobortis.
+                </p>
+                <h3 class="company__tab-title">OUR PLAN</h3>
+                <p class="company__tab-text">
+                  Ac nec est ultrices varius morbi et non. Donec quam sed eget
+                  purus. Elementum sed malesuada senectus feugiat.
+                </p>
+                <h3 class="company__tab-title">TECHNIQUE</h3>
+                <p class="company__tab-text">
+                  Ac nec est ultrices varius morbi et non. Donec quam sed eget
+                  purus. Elementum sed malesuada senectus feugiat. At faucibus
+                  morbi a neque ultricies. Nisl maecenas eget ultricies in
+                  lobortis. Nec quam sed eget purus. Elementum sed malesuada
+                  senectus
+                </p>
+              </div>
+              <div class="company__tab-content tab-content" id="tab2">
+                <h3 class="company__tab-title">OUR PLAN</h3>
+                <p class="company__tab-text">
+                  Ac nec est ultrices varius morbi et non. Donec quam sed eget
+                  purus. Elementum sed malesuada senectus feugiat.
+                </p>
+                <h3 class="company__tab-title">OUR PLAN</h3>
+                <p class="company__tab-text">
+                  Ac nec est ultrices varius morbi et non. Donec quam sed eget
+                  purus. Elementum sed malesuada senectus feugiat. At faucibus
+                  morbi a neque ultricies. Nisl maecenas eget ultricies in
+                  lobortis. Nec quam sed eget purus. Elementum sed malesuada
+                  senectus
+                </p>
+              </div>
+              <div class="company__tab-content tab-content" id="tab3">
+                <h3 class="company__tab-title">BEST GYM</h3>
+                <p class="company__tab-text">
+                  Ac nec est ultrices varius morbi et non. Donec quam sed eget
+                  purus. Elementum sed malesuada senectus feugiat faucibus morbi
+                  a neque ultricies. Nisl maecenas eget ultricies in lobortis.
+                </p>
+              </div>
+              <div class="company__tab-content tab-content" id="tab4">
+                <h3 class="company__tab-title">BEST GYM</h3>
+                <p class="company__tab-text">
+                  Ac nec est ultrices varius morbi et non. Donec quam sed eget
+                  purus. Elementum sed malesuada senectus feugiat faucibus morbi
+                  a neque ultricies. Nisl maecenas eget ultricies in lobortis.
+                </p>
+                <h3 class="company__tab-title">OUR PLAN</h3>
+                <p class="company__tab-text">
+                  Ac nec est ultrices varius morbi et non. Donec quam sed eget
+                  purus. Elementum sed malesuada senectus feugiat.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <button class="button container--big" type="button">
+          VIEW FULL TIMETABLE
+          <svg
+            width="21"
+            height="21"
+            viewBox="0 0 21 21"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0.999958 10.2829L19.565 10.2829"
+              stroke="#141414"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M10.2825 1.00041L19.565 10.2829L10.2825 19.5654"
+              stroke="#141414"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </button>
+        <section class="main__view view">
+          <div class="container--big">
+            <div class="view__video">
+              <img src="img/video-img.jpg" alt="#" />
+              <div class="view__video-play">
+                <a
+                  class="view__video-button"
+                  data-fslightbox="video"
+                  href="media/cake.mp4"
+                  ><img src="img/icons/play.svg" alt="play button"
+                /></a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__top">
+            <a class="footer__logo" href="#"
+              ><img src="img/icons/logo.svg" alt="logo"
+            /></a>
+            <h2 class="footer__title">
+              <a href="#">POWER FROM WITHIN</a>
+            </h2>
+          </div>
+          <div class="footer__body">
+            <div class="footer__contacts">
+              <div class="footer__contact">
+                <span class="footer__label label-1">CONTACT US</span>
+                <a class="footer__email" href="mailto:hello@pulse.com"
+                  >hello@pulse.com</a
+                >
+                <a class="footer__tel" href="tel:+9076838196">+907 683 8196</a>
+              </div>
+              <div class="footer__socials">
+                <span class="footer__label">FOLLOW US</span>
+                <ul class="socials__list">
+                  <li class="socials__item">
+                    <a href="#" class="socials__link">
+                      <svg
+                        width="20"
+                        height="20"
+                        viewBox="0 0 20 20"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M17.0703 0H2.92969C1.31439 0 0 1.31439 0 2.92969V17.0703C0 18.6856 1.31439 20 2.92969 20H8.82812V12.9297H6.48438V9.41406H8.82812V7.03125C8.82812 5.09262 10.4051 3.51562 12.3438 3.51562H15.8984V7.03125H12.3438V9.41406H15.8984L15.3125 12.9297H12.3438V20H17.0703C18.6856 20 20 18.6856 20 17.0703V2.92969C20 1.31439 18.6856 0 17.0703 0Z"
+                          fill="white"
+                        />
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="socials__item">
+                    <a href="#" class="socials__link">
+                      <svg
+                        width="20"
+                        height="20"
+                        viewBox="0 0 20 20"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M18.8998 1.10018C18.1666 0.366771 17.2832 0 16.2503 0H3.75003C2.71712 0 1.83372 0.366771 1.10018 1.10018C0.366771 1.83372 0 2.71708 0 3.75003V16.2502C0 17.283 0.366771 18.1665 1.10018 18.9C1.83372 19.6336 2.71712 20.0003 3.75003 20.0003H16.2502C17.2831 20.0003 18.1665 19.6336 18.8997 18.9C19.6332 18.1665 20 17.2831 20 16.2502V3.75003C20 2.71708 19.6332 1.83358 18.8998 1.10018ZM15.2997 7.69548C15.3084 7.77361 15.3128 7.89059 15.3128 8.04711C15.3128 8.77632 15.2063 9.50767 14.9938 10.241C14.7812 10.9747 14.4556 11.6778 14.0171 12.3505C13.579 13.0231 13.0559 13.618 12.4484 14.1344C11.8406 14.6507 11.1116 15.0632 10.2607 15.3711C9.41021 15.6795 8.49858 15.8337 7.52642 15.8337C6.0161 15.8337 4.61852 15.4254 3.33373 14.6098C3.54206 14.6357 3.7592 14.6488 3.98477 14.6488C5.24352 14.6488 6.37635 14.2582 7.38335 13.4767C6.79315 13.4683 6.26571 13.2861 5.80134 12.9298C5.33683 12.574 5.01357 12.1226 4.83123 11.5757C5.05685 11.6104 5.2261 11.6276 5.33893 11.6276C5.52988 11.6276 5.75131 11.5929 6.00296 11.5236C5.3693 11.4019 4.83552 11.0875 4.40148 10.5797C3.96735 10.0718 3.75035 9.49244 3.75035 8.84145V8.81541C4.21029 9.03227 4.64433 9.1451 5.05238 9.1539C4.26242 8.62427 3.86747 7.86482 3.86747 6.87524C3.86747 6.38907 3.99325 5.92904 4.245 5.495C4.9307 6.33708 5.76421 7.00974 6.74499 7.51319C7.72586 8.0166 8.77632 8.29886 9.89606 8.35957C9.85274 8.19465 9.83098 7.98623 9.83098 7.73457C9.83098 6.97923 10.0979 6.3348 10.6318 5.80088C11.1656 5.26701 11.8102 4.99998 12.5653 4.99998C13.3641 4.99998 14.0283 5.28653 14.5578 5.85949C15.1568 5.74665 15.7386 5.52519 16.3027 5.19545C16.0857 5.86368 15.6818 6.37156 15.0918 6.71881C15.6559 6.64055 16.1809 6.49306 16.667 6.27606C16.3024 6.8316 15.8465 7.30468 15.2997 7.69548Z"
+                          fill="white"
+                        />
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="socials__item">
+                    <a href="#" class="socials__link">
+                      <svg
+                        width="20"
+                        height="20"
+                        viewBox="0 0 20 20"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M11.9126 10.0144C11.9126 11.02 11.0974 11.8352 10.0918 11.8352C9.08625 11.8352 8.271 11.02 8.271 10.0144C8.271 9.00886 9.08625 8.1936 10.0918 8.1936C11.0974 8.1936 11.9126 9.00886 11.9126 10.0144Z"
+                          fill="white"
+                        />
+                        <path
+                          d="M13.1456 4.552H7.04051C5.71161 4.552 4.63062 5.633 4.63062 6.96189V13.0669C4.63062 14.3958 5.71161 15.4768 7.04051 15.4768H13.1456C14.4745 15.4768 15.5555 14.3958 15.5555 13.0669V6.96189C15.5555 5.633 14.4745 4.552 13.1456 4.552ZM10.093 13.0268C8.432 13.0268 7.08067 11.6755 7.08067 10.0144C7.08067 8.35338 8.432 7.00206 10.093 7.00206C11.7541 7.00206 13.1054 8.35338 13.1054 10.0144C13.1054 11.6755 11.7541 13.0268 10.093 13.0268ZM13.5472 7.16272C13.2144 7.16272 12.9447 6.89302 12.9447 6.56024C12.9447 6.22747 13.2144 5.95777 13.5472 5.95777C13.88 5.95777 14.1497 6.22747 14.1497 6.56024C14.1497 6.89302 13.88 7.16272 13.5472 7.16272Z"
+                          fill="white"
+                        />
+                        <path
+                          d="M14.7266 0H5.27344C2.36572 0 0 2.36572 0 5.27344V14.7266C0 17.6343 2.36572 20 5.27344 20H14.7266C17.6343 20 20 17.6343 20 14.7266V5.27344C20 2.36572 17.6343 0 14.7266 0ZM16.4844 12.9688C16.4844 14.9072 14.9072 16.4844 12.9688 16.4844H7.03125C5.09277 16.4844 3.51562 14.9072 3.51562 12.9688V7.03125C3.51562 5.09277 5.09277 3.51562 7.03125 3.51562H12.9688C14.9072 3.51562 16.4844 5.09277 16.4844 7.03125V12.9688Z"
+                          fill="white"
+                        />
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="footer__locations">
+              <span class="footer__label">OUR LOCATION</span>
+              <div class="footer__location">
+                <h3 class="footer__location-name">Hawaii</h3>
+                <p class="footer__location-text">
+                  828 Timbercrest Road, Healy City, AK 99743
+                </p>
+              </div>
+              <div class="footer__location">
+                <h3 class="footer__location-name">New York</h3>
+                <p class="footer__location-text">
+                  828 Timbercrest Road, Healy City, AK 99743
+                </p>
+              </div>
+            </div>
+            <div class="footer__hours">
+              <span class="footer__label">OPENING HOURS</span>
+              <h3 class="footer__hours-workers">Monday-Friday</h3>
+              <p class="footer__hours-text">Our doors are open 06:00 - 22:00</p>
+              <h3 class="footer__hours-workers">Weekends</h3>
+              <p class="footer__hours-text">Our doors are open 10:00 - 21:00</p>
+            </div>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <div class="footer__copy">
+            Copyright <span>Dotcreativemarket</span>, All Rights Reserved
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="js/fslightbox.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

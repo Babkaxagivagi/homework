@@ -1,0 +1,131 @@
+
+.footer {
+  padding-top: 63px;
+  font-family: var(--second-family);
+}
+.footer__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 61px;
+  border-bottom: 1px solid #ffffff80;
+  gap: 20px;
+}
+.footer__logo img{
+  width: 100%;
+}
+.footer__title {
+  position: relative;
+  font-size: 50px;
+}
+.footer__title::before{
+  position: absolute;
+  content: '';
+  top: 7%;
+  left: -5.2%;
+  width: 75px;
+  height: 75px;
+  background-color: var(--accent-color);
+  border-radius: 50%;
+  opacity: 0;
+  z-index: -1;
+  transition: var(--transition);
+}
+.footer__title:hover::before{
+  opacity: 1;
+}
+.footer__body {
+  display: flex;
+
+  gap: 166px;
+  padding-top: 101px;
+}
+.footer__body{
+  margin-bottom: 142px;
+}
+.footer__label{
+  display: inline-block;
+  font-weight: 600;
+  font-size: 20px;
+  color: #a6a6a6;
+  margin-bottom: 24px;
+}
+.footer__label.label-1{
+  margin-bottom: 4px;
+  font-family: var(--second-family);
+}
+.footer__contacts {
+  flex-grow: 1;
+}
+.footer__contact {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Oswald';
+  margin-bottom: 47px;
+}
+.footer__contact-title{
+  margin-bottom: 4px;
+}
+.footer__socials-title{
+  margin-bottom: 24px;
+}
+.footer__email {
+  font-weight: 400;
+  font-size: 42px;
+}
+.footer__tel {
+  font-weight: 400;
+  font-size: 42px;
+}
+.footer__socials {
+}
+.socials__list {
+  display: flex;
+  gap: 45px;
+}
+.socials__link {
+}
+.footer__locations {
+  max-width: 203px;
+}
+.footer__location {
+}
+.footer__location-name {
+  font-family: 'Oswald';
+  font-weight: 400;
+  font-size: 42px;
+}
+.footer__location-text {
+  font-weight: 400;
+  line-height: 1.1;
+  font-size: 20px;
+  color: #a6a6a6;
+}
+.footer__hours {
+  max-width: 221px;
+}
+.footer__hours-workers {
+  font-family: 'Oswald';
+  font-weight: 400;
+  font-size: 42px;
+}
+.footer__hours-text {
+  line-height: 1.1;
+  font-weight: 400;
+  font-size: 20px;
+  color: #a6a6a6;
+}
+.footer__bottom {
+  background: #303030;
+  padding: 28px 0 29px 106px;
+}
+.footer__copy {
+  font-size: 16px;
+  line-height: 1.94;
+  opacity: 0.6;
+  padding: 0 10px;
+}
+.footer__copy span{
+  font-weight: 700;
+}
+
